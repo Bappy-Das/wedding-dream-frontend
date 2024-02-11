@@ -1,0 +1,29 @@
+.swiper-button-next,
+.swiper-button-prev {
+    top: 45px;
+}
+.swiper-button-next::after {
+  content: "\1F81A" !important;
+  background: rgb(75 85 99);
+  color: rgba(1, 1, 1, 0.69);
+  border: 2px solid rgb(75 85 99);
+  font-size: 30px;
+  justify-items: center;
+  margin-right: 30px;
+  border-radius: 50%;
+  padding: 6px;
+  box-shadow: 1px 0px 10px rgb(239, 239, 239);
+}
+
+.swiper-button-prev::after {
+  content: "\1F818" !important;
+  background: rgb(75 85 99);
+  color: rgba(1, 1, 1, 0.69);
+  border: 2px solid rgb(75 85 99);
+  font-size: 30px;
+  justify-items: center;
+  margin-left: 30px;
+  border-radius: 50%;
+  padding: 6px;
+  box-shadow: 1px 0px 10px rgb(239, 239, 239);
+}
